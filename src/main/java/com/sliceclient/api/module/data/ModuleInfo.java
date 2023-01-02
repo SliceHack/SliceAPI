@@ -12,7 +12,7 @@ import java.lang.annotation.RetentionPolicy;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ModuleInfo {
     String name();
-    String description();
+    String description() default "No description provided.";
     Category category();
     int key() default 0;
 }

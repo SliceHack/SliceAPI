@@ -1,4 +1,4 @@
-package com.sliceclient.module.data;
+package com.sliceclient.api.module.data;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -14,4 +14,5 @@ public @interface ModuleInfo {
     String name();
     String description();
     Category category();
+    int key() default 0;
 }

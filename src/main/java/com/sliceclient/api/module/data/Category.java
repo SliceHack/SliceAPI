@@ -1,4 +1,4 @@
-package com.sliceclient.module.data;
+package com.sliceclient.api.module.data;
 
 import lombok.Getter;
 

@@ -1,6 +1,6 @@
-package com.sliceclient.exceptions;
+package com.sliceclient.api.exceptions;
 
-import com.sliceclient.module.data.ModuleInfo;
+import com.sliceclient.api.module.data.ModuleInfo;
 
 /**
  * Thrown when a module is missing the {@link ModuleInfo} annotation.

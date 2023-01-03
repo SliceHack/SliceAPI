@@ -1,5 +1,6 @@
 package com.sliceclient.api;
 
+import com.sliceclient.api.command.Command;
 import com.sliceclient.api.module.Module;
 
 /**
@@ -22,4 +23,11 @@ public class SlicePlugin {
      * @param module the module to register
      */
     public void registerModule(Module module) {}
+
+    /**
+     * This is used to register a command.
+     *
+     * @param command the command to register
+     */
+    public void registerCommand(Command command) {}
 }

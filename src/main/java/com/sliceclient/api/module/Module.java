@@ -4,6 +4,7 @@ import com.sliceclient.api.module.data.Category;
 import com.sliceclient.api.module.data.ModuleInfo;
 import com.sliceclient.api.exceptions.ModuleInfoNotFoundException;
 import lombok.Getter;
+import net.minecraft.client.Minecraft;
 
 /**
  * This is the base for scripted Modules.
@@ -14,6 +15,9 @@ import lombok.Getter;
 @Getter
 @SuppressWarnings("unused")
 public class Module {
+
+    /* Module fields */
+    protected Minecraft mc = Minecraft.getMinecraft();
 
     /** the info of the module */
     private final ModuleInfo info = getClass().getAnnotation(ModuleInfo.class);

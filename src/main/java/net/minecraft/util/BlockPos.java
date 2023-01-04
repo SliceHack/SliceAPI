@@ -41,6 +41,10 @@ public class BlockPos {
     public static Iterable<BlockPos.MutableBlockPos> getAllInBoxMutable(BlockPos from, BlockPos to){return null;}
     public BlockPos crossProduct(Vec3i vec){return null;}
 
+    public int getX() {return 0;}
+    public int getY() {return 0;}
+    public int getZ() {return 0;}
+
     public static final class MutableBlockPos extends BlockPos
     {
         @Getter private int x, y, z;

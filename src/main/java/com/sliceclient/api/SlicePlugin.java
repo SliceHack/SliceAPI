@@ -9,7 +9,7 @@ import com.sliceclient.api.module.Module;
  * @author Nick
  * @since 1/2/2023
  * */
-public class SlicePlugin {
+public abstract class SlicePlugin {
 
     /**
      * Override this method

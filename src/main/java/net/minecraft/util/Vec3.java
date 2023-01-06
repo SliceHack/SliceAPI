@@ -7,8 +7,7 @@ package net.minecraft.util;
  * @since 1/4/2023
  * */
 @SuppressWarnings("unused")
-public class Vec3
-{
+public class Vec3 {
     public final double xCoord = 0, yCoord = 0, zCoord = 0;
 
     public Vec3(double x, double y, double z) {}

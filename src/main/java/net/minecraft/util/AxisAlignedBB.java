@@ -6,8 +6,7 @@ package net.minecraft.util;
  * @author Nick
  * @since 1/4/2023
  * */
-public class AxisAlignedBB
-{
+public class AxisAlignedBB {
     public final double minX = 0, minY = 0, minZ = 0, maxX = 0, maxY = 0, maxZ = 0;
 
     public AxisAlignedBB(double x1, double y1, double z1, double x2, double y2, double z2) {}

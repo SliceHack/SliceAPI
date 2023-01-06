@@ -3,6 +3,7 @@ package com.sliceclient.api.module;
 import com.sliceclient.api.module.data.Category;
 import com.sliceclient.api.module.data.ModuleInfo;
 import com.sliceclient.api.exceptions.ModuleInfoNotFoundException;
+import com.sliceclient.api.player.Player;
 import lombok.Getter;
 import net.minecraft.client.Minecraft;
 
@@ -18,6 +19,7 @@ public class Module {
 
     /* Module fields */
     protected Minecraft mc = Minecraft.getMinecraft();
+    protected Player player = new Player();
 
     /** the info of the module */
     private final ModuleInfo info = getClass().getAnnotation(ModuleInfo.class);

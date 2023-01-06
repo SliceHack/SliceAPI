@@ -45,8 +45,7 @@ public class BlockPos {
     public int getY() {return 0;}
     public int getZ() {return 0;}
 
-    public static final class MutableBlockPos extends BlockPos
-    {
+    public static final class MutableBlockPos extends BlockPos {
         @Getter private int x, y, z;
 
         public MutableBlockPos() {

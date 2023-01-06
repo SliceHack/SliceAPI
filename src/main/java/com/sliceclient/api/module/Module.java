@@ -18,8 +18,8 @@ import net.minecraft.client.Minecraft;
 public class Module {
 
     /* Module fields */
-    protected Minecraft mc = Minecraft.getMinecraft();
-    protected Player player = new Player();
+    protected final Minecraft mc = Minecraft.getMinecraft();
+    protected final Player player = new Player();
 
     /** the info of the module */
     private final ModuleInfo info = getClass().getAnnotation(ModuleInfo.class);

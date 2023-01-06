@@ -24,6 +24,11 @@ public class Player {
     public void setOnGround(boolean onGround) {}
 
     /**
+     * Checks if a player is on the ground
+     * */
+    public boolean isOnGround() {return false;}
+
+    /**
      * Adds strafe to the player
      * */
     public void strafe(float speed) {}
